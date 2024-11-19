@@ -65,6 +65,7 @@ background-position: center;
 justify-content: space-between;
 font-size: 14.5px;
 margin: -15px 0 15px;
+color: #0b0b0b;
 }
 .remember-forget label input{
   accent-color: #fff;
@@ -72,7 +73,7 @@ margin: -15px 0 15px;
 
 }
 .remember-forget a{
-  color: #fff;
+  color: #0b0b0b;
   text-decoration: none;
 }
 .remember-forget a:hover{
@@ -110,4 +111,44 @@ font-weight: 600;
   color: #161414; 
   text-align: center;
   margin-bottom: 20px;
+}
+/* Back to Home Button */
+.back-to-home {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  color: #fff;
+  font-size: 14.5px;
+  text-decoration: none;
+  font-weight: 600;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 10px 20px;
+  border-radius: 40px;
+  transition: background 0.3s, color 0.3s;
+}
+
+.back-to-home:hover {
+  background: #fff;
+  color: #333;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+.footer p {
+  color: rgba(9, 8, 8, 0.8);
+}
+
+.footer p a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.footer p a:hover {
+  text-decoration: underline;
 }
